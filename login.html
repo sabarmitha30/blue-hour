@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+  <h1>BLUE HOUR</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html"class="active">Login</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+</header>
+
+<div class="cart-box">
+  <h2>Welcome Back</h2>
+
+  <input type="text" placeholder="Username"><br><br>
+  <input type="password" placeholder="Password"><br><br>
+
+  <button onclick="login()">Login</button>
+</div>
+
+<script>
+function login() {
+  alert("Login Successful!");
+  window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
